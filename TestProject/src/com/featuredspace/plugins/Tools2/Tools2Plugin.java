@@ -174,7 +174,6 @@ public class Tools2Plugin extends JavaPlugin implements Listener {
 						
 						}
 						counter++;
-						
 					}
 				}
 				
@@ -183,7 +182,21 @@ public class Tools2Plugin extends JavaPlugin implements Listener {
 				
 			}
 			
+		} else if(command.getName().equalsIgnoreCase("CHICKENBOMB")) {
+			if(sender instanceof Player) {
+				Player player = (Player) sender;
+				Location location = player.getLocation();
+				location.setY(location.getY() + 5);
+				
+				for(int i = 0; i<846; i++) {
+					player.getWorld().spawnEntity(location, EntityType.CHICKEN);
+				}
+				player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "YOU LOVEO CHICKEO");
+				
+			}
 		}
+			
+		
 
 		
 		

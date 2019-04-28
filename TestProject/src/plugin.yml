@@ -32,3 +32,6 @@ commands:
   killall:
     description: Kills all.
     usage: /<command>
+  chickenbomb: 
+   description: 
+   usage: /<command>
