@@ -1,0 +1,34 @@
+name: Tools2Plugin
+main: com.featuredspace.plugins.Tools2.Tools2Plugin
+version: 1.0
+commands:
+  fly:
+    description: Makes the user fly
+    usage: /<command>
+  gmc:
+    description: Creative.
+    usage: /<command>
+  tntgun:
+    description: Fire TNT At will.
+    usage: /<command>
+  zapgun:
+    description: ZAPPY BOI
+    usage: /<command>
+  god:
+    description: You are god now
+    usage: /<command>
+  day: 
+    description: You are god now
+    usage: /<command>
+  night: 
+    description: You are god now
+    usage: /<command>
+  gms: 
+    description: You are god now
+    usage: /<command>
+  spawn:
+    description: Spawn a mob
+    usage: /<command>
+  killall:
+    description: Kills all.
+    usage: /<command>
